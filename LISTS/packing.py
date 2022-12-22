@@ -7,4 +7,5 @@ def calculate_total(*args):
 def packer(*args):
     print("These are the characters I plan to try in SF6:")
     print(args)
+    
 packer("Kimberly", "DeeJay", "Marisa", "Jamie")

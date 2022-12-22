@@ -1,5 +1,7 @@
-def packer(*args):
-    print(args)
+def unpacker():
+    return 'hey'
 
-
-packer('hi', 'i', 'love', 'python')
+var5, var2, var3 = unpacker()
+print(var5)
+print(var2)
+print(var3)
